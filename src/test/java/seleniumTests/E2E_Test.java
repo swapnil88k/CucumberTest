@@ -28,14 +28,7 @@ public class E2E_Test {
 	public static void main(String[] args) throws InterruptedException {
 	
 	System.setProperty("webdriver.gecko.driver","C:\\Users\\228489\\Documents\\technology\\Java-Handson\\Selenium1\\geckodriver.exe");
-	/*
-	File pathBinary = new File("C:\\Users\\228489\\Documents\\technology\\Java-Handson\\Selenium1\\Mozilla Firefox\\firefox.exe");
-	FirefoxBinary firefoxBinary = new FirefoxBinary(pathBinary);   
-	DesiredCapabilities desired = DesiredCapabilities.firefox();
-	FirefoxOptions options = new FirefoxOptions();
-	desired.setCapability(FirefoxOptions.FIREFOX_OPTIONS, options.setBinary(firefoxBinary));
-	WebDriver driver = new FirefoxDriver(options);
-	*/
+	
 	System.setProperty("webdriver.firefox.bin", "C:\\Users\\228489\\Documents\\technology\\Java-Handson\\Selenium1\\Mozilla Firefox\\firefox.exe");
 	String Firefoxdriverpath = "C:\\Users\\228489\\Documents\\technology\\Java-Handson\\Selenium1\\geckodriver.exe";
 	System.setProperty("webdriver.gecko.driver", Firefoxdriverpath);
