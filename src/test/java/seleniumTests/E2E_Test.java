@@ -36,7 +36,7 @@ public class E2E_Test {
 	capabilities.setCapability("marionette", true);
 	driver = new FirefoxDriver(capabilities);
 	driver.manage().window().maximize();
-	driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+	driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 	driver.get("http://www.shop.demoqa.com");
 	
 	driver.navigate().to("http://shop.demoqa.com/?s=" + "dress" + "&post_type=product");
